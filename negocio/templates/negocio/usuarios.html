@@ -1,0 +1,37 @@
+{% extends "negocio/index.html" %}
+
+
+
+{% block titulo %}
+<span class="heading">Usuarios</span>
+<h2>Las principales bibliotecas de la ciudad nos ofrecen su catalogo</h2>
+<p>Vos elegís por cuánto tiempo lo queres tener. Cuando lo terminas, lo pasamos a buscar</p>
+<p><a href="#" class="btn btn-primary py-3 px-4">Primer mes reembolsable</a></p>
+{% endblock titulo %}
+
+
+
+{% block contenido %}
+<table class="table table-striped"> 
+    <thead>
+        <tr>
+            <th>Id</td>
+            <th>Nombre</td>
+            <th>direccion</th>
+            <th>email</th>
+            <th>telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for u in usuarios %}
+        <tr>
+            <td>{{ u.id }}</td>
+            <td>{{ u.nombre }}</td>
+            <td>{{ u.direccion }}</td>
+            <td>{{ u.email }}</td>
+            <td>{{ u.telefono }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock contenido %}
