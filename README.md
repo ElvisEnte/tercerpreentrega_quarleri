@@ -6,24 +6,24 @@
 ### Dejo las urls para facilitar el copy + paste:
 
 
-/proveedores/' - Lista de proveedores de los libros
+/proveedores/ - Lista de proveedores de los libros
 
-/usuarios/' - Sección de usuarios. Yo se que no es bueno que se vea la info de los usuarios. En esta ocasión lo dejé para mostrar que el formulario funciona bien
+/usuarios/ - Sección de usuarios. Yo se que no es bueno que se vea la info de los usuarios. En esta ocasión lo dejé para mostrar que el formulario funciona bien
 
 
-/libros/' - catalogo de libros
+/libros/ - catalogo de libros
 
 Al hacer click en Home o en el logo (BiblioFlix.) Se redirige a la home
     
 ## Formularios
 
-/usuarioForm/' - Formulario de usuarios
+/usuarioForm/ - Formulario de usuarios
 
-/proveedorForm/' - Formulario de proveedores
+/proveedorForm/ - Formulario de proveedores
 
-/librosForm/'- Formulario de libros
+/librosForm/ - Formulario de libros
 
-/buscarLibros/'- Formulario de busqueda de libros
+/buscarLibros/ - Formulario de busqueda de libros
 
 ### Adicionalmente, cree un superuser de admin:
 user: admin
